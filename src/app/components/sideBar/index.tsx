@@ -10,13 +10,13 @@ import Image from "next/image";
 import logo from "../../assets/p.svg"
 import home from "../../assets/home.svg"
 import settings from "../../assets/settings.svg"
-import dashboard from "../../assets/dashboard.svg"
+import dashboard from "../../../../public/dashboard.svg"
 import partitions from "../../assets/partitions.svg"
 import gCal from "../../assets/gcal.svg"
 
 export default function SideBar() {
 
-    const pages = [
+    const pageIcons = [
         {
             title: "Home",
             icon: home,
@@ -62,15 +62,15 @@ export default function SideBar() {
 
                 {/* Page Icons */}    
                 <div>
-                    {pages.map((p) => (
-                        <div className="flex flex-col mt-5
+                    {pageIcons.map((p, index) => (
+                        <div key={p +  "" + index} className="flex flex-col mt-5
                             items-center text-center
                             hover:cursor-pointer 
                         ">
                             <Image
                                 src={p.icon}
                                 alt={p.title}
-                                className="dark:invert opacity-50 hover:opacity-100"
+                                className="invert opacity-50 hover:opacity-100"
                                 width={30}
                                 height={30}
                                 priority
@@ -82,8 +82,8 @@ export default function SideBar() {
     
                 {/* Intergration Icons */}
                 <div>
-                    {integrations.map((i) => (
-                        <div className="flex flex-col mt-5
+                    {integrations.map((i, index) => (
+                        <div key ={i +  "" + index} className="flex flex-col mt-5
                             items-center text-center
                             hover:cursor-pointer 
                         ">

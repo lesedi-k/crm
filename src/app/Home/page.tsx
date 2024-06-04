@@ -13,6 +13,7 @@ import transactions from "../JSON/longPlaid.json"
 
 /* Assets */
 import filter from "../assets/filter.svg"
+//get card photos
 
 export default function Accounts() {
     const acc = accounts.accounts
@@ -41,7 +42,7 @@ export default function Accounts() {
                     </div>
                     
                     {acc.map((a, index)=> (
-                        <div className="flex flex-row justify-between p-2 mb-2
+                        <div key={a + "" + index} className="flex flex-row justify-between p-2 mb-2
                                 rounded-lg bg-slate-300
                                 hover:bg-slate-200 hover:rounded-lg hover:cursor-pointer
                         ">
@@ -82,7 +83,7 @@ export default function Accounts() {
 
                     {/* TODO: Past and upcomgin transactions */}
                     <div className="flex flex-col h-full overflow-y-auto overflow-hidden px-2">
-                    {ts.map((t)=> {
+                    {ts.map((t, index)=> {
                         let changed = false;
                         if (t.date !== date) {
                             changed = true
@@ -93,7 +94,7 @@ export default function Accounts() {
                         const formattedDate = format(new Date(t.date), 'MMMM dd, yyyy');
 
                         return (
-                            <>
+                            <div key={t + "" + index}>
                                 {changed && <p className="text-center mb-4"> {formattedDate} </p>}
                                 <div className={t.amount < 0 ? 'flex flex-row' :  'flex flex-row-reverse' }>
                                     <div className="flex flex-col justify-between p-2 w-9/12
@@ -108,8 +109,8 @@ export default function Accounts() {
 
                                         <div className="flex flex-row justify-between">
                                             <div className="flex flex-row">
-                                                {t.category.map((c)=>(
-                                                    <div className="bg-slate-600 rounded-full px-4 mr-2">
+                                                {t.category.map((c, index)=>(
+                                                    <div key={c + "" + index} className="bg-slate-600 rounded-full px-4 mr-2">
                                                         <p className="text-white">{c}</p>
                                                     </div>
                                                 ))}
@@ -118,8 +119,7 @@ export default function Accounts() {
                                         </div>
                                     </div>
                                 </div>
-                                
-                            </>
+                            </div>
                         );
                     })}
                 </div>
