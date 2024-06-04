@@ -12,7 +12,7 @@ import accounts from "../JSON/plaid_accounts.json"
 import transactions from "../JSON/longPlaid.json"
 
 /* Assets */
-import filter from "../assets/filter.svg"
+import filter from "../../../public/assets/filter.svg"
 //get card photos
 
 export default function Accounts() {

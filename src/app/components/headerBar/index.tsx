@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 import Image from "next/image";
 
 /* Assets */
-import notifications from "../../assets/notification.svg"
-import profile from "../../assets/profile.png"
-import searchIcon from "../../assets/search.svg"
+import notifications from "../../../../public/assets/notification.svg"
+import profile from "../../../../public/assets/profile.png"
+import searchIcon from "../../../../public/assets/search.svg"
 import { calculateSizeAdjustValues } from 'next/dist/server/font-utils';
  
  export default function HeaderBar() {

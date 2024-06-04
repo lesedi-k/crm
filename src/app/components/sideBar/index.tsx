@@ -7,12 +7,12 @@
 import Image from "next/image";
 
 /* Assets */
-import logo from "../../assets/p.svg"
-import home from "../../assets/home.svg"
-import settings from "../../assets/settings.svg"
-import dashboard from "../../../../public/dashboard.svg"
-import partitions from "../../assets/partitions.svg"
-import gCal from "../../assets/gcal.svg"
+import dashboard from "../../../../public/assets/dashboard.svg"
+import logo from "../../../../public/assets/P.svg"
+import home from "../../../../public/assets/home.svg"
+import settings from "../../../../public/assets/settings.svg"
+import partitions from "../../../../public/assets/partitions.svg"
+import gCal from "../../../../public/assets/gcal.svg"
 
 export default function SideBar() {
 
