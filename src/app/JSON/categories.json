@@ -1,0 +1,522 @@
+[
+  {
+    "PRIMARY": "INCOME",
+    "DETAILED": "DIVIDENDS",
+    "DESCRIPTION": "Dividends from investment accounts"
+  },
+  {
+    "PRIMARY": "INCOME",
+    "DETAILED": "INTEREST EARNED",
+    "DESCRIPTION": "Income from interest on savings accounts"
+  },
+  {
+    "PRIMARY": "INCOME",
+    "DETAILED": "RETIREMENT PENSION",
+    "DESCRIPTION": "Income from pension payments "
+  },
+  {
+    "PRIMARY": "INCOME",
+    "DETAILED": "TAX REFUND",
+    "DESCRIPTION": "Income from tax refunds"
+  },
+  {
+    "PRIMARY": "INCOME",
+    "DETAILED": "UNEMPLOYMENT",
+    "DESCRIPTION": "Income from unemployment benefits, including unemployment insurance and healthcare"
+  },
+  {
+    "PRIMARY": "INCOME",
+    "DETAILED": "WAGES",
+    "DESCRIPTION": "Income from salaries, gig-economy work, and tips earned"
+  },
+  {
+    "PRIMARY": "INCOME",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous income, including alimony, social security, child support, and rental"
+  },
+  {
+    "PRIMARY": "TRANSFER IN",
+    "DETAILED": "CASH ADVANCES AND LOANS",
+    "DESCRIPTION": "Loans and cash advances deposited into a bank account"
+  },
+  {
+    "PRIMARY": "TRANSFER IN",
+    "DETAILED": "DEPOSIT",
+    "DESCRIPTION": "Cash, checks, and ATM deposits into a bank account"
+  },
+  {
+    "PRIMARY": "TRANSFER IN",
+    "DETAILED": "INVESTMENT AND RETIREMENT FUNDS",
+    "DESCRIPTION": "Inbound transfers to an investment or retirement account"
+  },
+  {
+    "PRIMARY": "TRANSFER IN",
+    "DETAILED": "SAVINGS",
+    "DESCRIPTION": "Inbound transfers to a savings account"
+  },
+  {
+    "PRIMARY": "TRANSFER IN",
+    "DETAILED": "ACCOUNT TRANSFER",
+    "DESCRIPTION": "General inbound transfers from another account"
+  },
+  {
+    "PRIMARY": "TRANSFER IN",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous inbound transactions"
+  },
+  {
+    "PRIMARY": "TRANSFER OUT",
+    "DETAILED": "INVESTMENT AND RETIREMENT FUNDS",
+    "DESCRIPTION": "Transfers to an investment or retirement account, including investment apps such as Acorns, Betterment"
+  },
+  {
+    "PRIMARY": "TRANSFER OUT",
+    "DETAILED": "SAVINGS",
+    "DESCRIPTION": "Outbound transfers to savings accounts"
+  },
+  {
+    "PRIMARY": "TRANSFER OUT",
+    "DETAILED": "WITHDRAWAL",
+    "DESCRIPTION": "Withdrawals from a bank account"
+  },
+  {
+    "PRIMARY": "TRANSFER OUT",
+    "DETAILED": "ACCOUNT TRANSFER",
+    "DESCRIPTION": "General outbound transfers to another account"
+  },
+  {
+    "PRIMARY": "TRANSFER OUT",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous outbound transactions"
+  },
+  {
+    "PRIMARY": "LOAN PAYMENTS",
+    "DETAILED": "CAR PAYMENT",
+    "DESCRIPTION": "Car loans and leases"
+  },
+  {
+    "PRIMARY": "LOAN PAYMENTS",
+    "DETAILED": "CREDIT CARD PAYMENT",
+    "DESCRIPTION": "Payments to a credit card. These are positive amounts for credit card subtypes and negative for depository subtypes"
+  },
+  {
+    "PRIMARY": "LOAN PAYMENTS",
+    "DETAILED": "PERSONAL LOAN PAYMENT",
+    "DESCRIPTION": "Personal loans, including cash advances and buy now pay later repayments"
+  },
+  {
+    "PRIMARY": "LOAN PAYMENTS",
+    "DETAILED": "MORTGAGE PAYMENT",
+    "DESCRIPTION": "Payments on mortgages"
+  },
+  {
+    "PRIMARY": "LOAN PAYMENTS",
+    "DETAILED": "STUDENT LOAN PAYMENT",
+    "DESCRIPTION": "Payments on student loans. For college tuition, refer to \"General Services - Education\""
+  },
+  {
+    "PRIMARY": "LOAN PAYMENTS",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous debt payments"
+  },
+  {
+    "PRIMARY": "BANK FEES",
+    "DETAILED": "ATM FEES",
+    "DESCRIPTION": "Fees incurred for out-of-network ATMs"
+  },
+  {
+    "PRIMARY": "BANK FEES",
+    "DETAILED": "FOREIGN TRANSACTION FEES",
+    "DESCRIPTION": "Fees incurred on non-domestic transactions"
+  },
+  {
+    "PRIMARY": "BANK FEES",
+    "DETAILED": "INSUFFICIENT FUNDS",
+    "DESCRIPTION": "Fees relating to insufficient funds"
+  },
+  {
+    "PRIMARY": "BANK FEES",
+    "DETAILED": "INTEREST CHARGE",
+    "DESCRIPTION": "Fees incurred for interest on purchases, including not-paid-in-full or interest on cash advances"
+  },
+  {
+    "PRIMARY": "BANK FEES",
+    "DETAILED": "OVERDRAFT FEES",
+    "DESCRIPTION": "Fees incurred when an account is in overdraft"
+  },
+  {
+    "PRIMARY": "BANK FEES",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous bank fees"
+  },
+  {
+    "PRIMARY": "ENTERTAINMENT",
+    "DETAILED": "CASINOS AND GAMBLING",
+    "DESCRIPTION": "Gambling, casinos, and sports betting"
+  },
+  {
+    "PRIMARY": "ENTERTAINMENT",
+    "DETAILED": "MUSIC AND AUDIO",
+    "DESCRIPTION": "Digital and in-person music purchases, including music streaming services"
+  },
+  {
+    "PRIMARY": "ENTERTAINMENT",
+    "DETAILED": "SPORTING EVENTS AMUSEMENT PARKS AND MUSEUMS",
+    "DESCRIPTION": "Purchases made at sporting events, music venues, concerts, museums, and amusement parks"
+  },
+  {
+    "PRIMARY": "ENTERTAINMENT",
+    "DETAILED": "TV AND MOVIES",
+    "DESCRIPTION": "In home movie streaming services and movie theaters"
+  },
+  {
+    "PRIMARY": "ENTERTAINMENT",
+    "DETAILED": "VIDEO GAMES",
+    "DESCRIPTION": "Digital and in-person video game purchases"
+  },
+  {
+    "PRIMARY": "ENTERTAINMENT",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous entertainment purchases, including night life and adult entertainment"
+  },
+  {
+    "PRIMARY": "FOOD AND DRINK",
+    "DETAILED": "BEER WINE AND LIQUOR",
+    "DESCRIPTION": "Beer, Wine & Liquor Stores"
+  },
+  {
+    "PRIMARY": "FOOD AND DRINK",
+    "DETAILED": "COFFEE",
+    "DESCRIPTION": "Purchases at coffee shops or cafes"
+  },
+  {
+    "PRIMARY": "FOOD AND DRINK",
+    "DETAILED": "FAST FOOD",
+    "DESCRIPTION": "Dining expenses for fast food chains"
+  },
+  {
+    "PRIMARY": "FOOD AND DRINK",
+    "DETAILED": "GROCERIES",
+    "DESCRIPTION": "Purchases for fresh produce and groceries, including farmers' markets"
+  },
+  {
+    "PRIMARY": "FOOD AND DRINK",
+    "DETAILED": "RESTAURANT",
+    "DESCRIPTION": "Dining expenses for restaurants, bars, gastropubs, and diners"
+  },
+  {
+    "PRIMARY": "FOOD AND DRINK",
+    "DETAILED": "VENDING MACHINES",
+    "DESCRIPTION": "Purchases made at vending machine operators"
+  },
+  {
+    "PRIMARY": "FOOD AND DRINK",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous food and drink, including desserts, juice bars, and delis"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "BOOKSTORES AND NEWSSTANDS",
+    "DESCRIPTION": "Books, magazines, and news "
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "CLOTHING AND ACCESSORIES",
+    "DESCRIPTION": "Apparel, shoes, and jewelry"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "CONVENIENCE STORES",
+    "DESCRIPTION": "Purchases at convenience stores"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "DEPARTMENT STORES",
+    "DESCRIPTION": "Retail stores with wide ranges of consumer goods, typically specializing in clothing and home goods"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "DISCOUNT STORES",
+    "DESCRIPTION": "Stores selling goods at a discounted price"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "ELECTRONICS",
+    "DESCRIPTION": "Electronics stores and websites"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "GIFTS AND NOVELTIES",
+    "DESCRIPTION": "Photo, gifts, cards, and floral stores"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "OFFICE SUPPLIES",
+    "DESCRIPTION": "Stores that specialize in office goods"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "ONLINE MARKETPLACES",
+    "DESCRIPTION": "Multi-purpose e-commerce platforms such as Etsy, Ebay and Amazon"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "PET SUPPLIES",
+    "DESCRIPTION": "Pet supplies and pet food"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "SPORTING GOODS",
+    "DESCRIPTION": "Sporting goods, camping gear, and outdoor equipment"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "SUPERSTORES",
+    "DESCRIPTION": "Superstores such as Target and Walmart, selling both groceries and general merchandise"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "TOBACCO AND VAPE",
+    "DESCRIPTION": "Purchases for tobacco and vaping products"
+  },
+  {
+    "PRIMARY": "GENERAL MERCHANDISE",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous merchandise, including toys, hobbies, and arts and crafts"
+  },
+  {
+    "PRIMARY": "HOME IMPROVEMENT",
+    "DETAILED": "FURNITURE",
+    "DESCRIPTION": "Furniture, bedding, and home accessories"
+  },
+  {
+    "PRIMARY": "HOME IMPROVEMENT",
+    "DETAILED": "HARDWARE",
+    "DESCRIPTION": "Building materials, hardware stores, paint, and wallpaper"
+  },
+  {
+    "PRIMARY": "HOME IMPROVEMENT",
+    "DETAILED": "REPAIR AND MAINTENANCE",
+    "DESCRIPTION": "Plumbing, lighting, gardening, and roofing"
+  },
+  {
+    "PRIMARY": "HOME IMPROVEMENT",
+    "DETAILED": "SECURITY",
+    "DESCRIPTION": "Home security system purchases"
+  },
+  {
+    "PRIMARY": "HOME IMPROVEMENT",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous home purchases, including pool installation and pest control"
+  },
+  {
+    "PRIMARY": "MEDICAL",
+    "DETAILED": "DENTAL CARE",
+    "DESCRIPTION": "Dentists and general dental care"
+  },
+  {
+    "PRIMARY": "MEDICAL",
+    "DETAILED": "EYE CARE",
+    "DESCRIPTION": "Optometrists, contacts, and glasses stores"
+  },
+  {
+    "PRIMARY": "MEDICAL",
+    "DETAILED": "NURSING CARE",
+    "DESCRIPTION": "Nursing care and facilities"
+  },
+  {
+    "PRIMARY": "MEDICAL",
+    "DETAILED": "PHARMACIES AND SUPPLEMENTS",
+    "DESCRIPTION": "Pharmacies and nutrition shops"
+  },
+  {
+    "PRIMARY": "MEDICAL",
+    "DETAILED": "PRIMARY CARE",
+    "DESCRIPTION": "Doctors and physicians"
+  },
+  {
+    "PRIMARY": "MEDICAL",
+    "DETAILED": "VETERINARY SERVICES",
+    "DESCRIPTION": "Prevention and care procedures for animals"
+  },
+  {
+    "PRIMARY": "MEDICAL",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous medical, including blood work, hospitals, and ambulances"
+  },
+  {
+    "PRIMARY": "PERSONAL CARE",
+    "DETAILED": "GYMS AND FITNESS CENTERS",
+    "DESCRIPTION": "Gyms, fitness centers, and workout classes"
+  },
+  {
+    "PRIMARY": "PERSONAL CARE",
+    "DETAILED": "HAIR AND BEAUTY",
+    "DESCRIPTION": "Manicures, haircuts, waxing, spa/massages, and bath and beauty products "
+  },
+  {
+    "PRIMARY": "PERSONAL CARE",
+    "DETAILED": "LAUNDRY AND DRY CLEANING",
+    "DESCRIPTION": "Wash and fold, and dry cleaning expenses"
+  },
+  {
+    "PRIMARY": "PERSONAL CARE",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous personal care, including mental health apps and services"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "ACCOUNTING AND FINANCIAL PLANNING",
+    "DESCRIPTION": "Financial planning, and tax and accounting services"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "AUTOMOTIVE",
+    "DESCRIPTION": "Oil changes, car washes, repairs, and towing"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "CHILDCARE",
+    "DESCRIPTION": "Babysitters and daycare"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "CONSULTING AND LEGAL",
+    "DESCRIPTION": "Consulting and legal services"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "EDUCATION",
+    "DESCRIPTION": "Elementary, high school, professional schools, and college tuition"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "INSURANCE",
+    "DESCRIPTION": "Insurance for auto, home, and healthcare"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "POSTAGE AND SHIPPING",
+    "DESCRIPTION": "Mail, packaging, and shipping services"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "STORAGE",
+    "DESCRIPTION": "Storage services and facilities"
+  },
+  {
+    "PRIMARY": "GENERAL SERVICES",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous services, including advertising and cloud storage "
+  },
+  {
+    "PRIMARY": "GOVERNMENT AND NON PROFIT",
+    "DETAILED": "DONATIONS",
+    "DESCRIPTION": "Charitable, political, and religious donations"
+  },
+  {
+    "PRIMARY": "GOVERNMENT AND NON PROFIT",
+    "DETAILED": "GOVERNMENT DEPARTMENTS AND AGENCIES",
+    "DESCRIPTION": "Government departments and agencies, such as driving licences, and passport renewal"
+  },
+  {
+    "PRIMARY": "GOVERNMENT AND NON PROFIT",
+    "DETAILED": "TAX PAYMENT",
+    "DESCRIPTION": "Tax payments, including income and property taxes"
+  },
+  {
+    "PRIMARY": "GOVERNMENT AND NON PROFIT",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous government and non-profit agencies"
+  },
+  {
+    "PRIMARY": "TRANSPORTATION",
+    "DETAILED": "BIKES AND SCOOTERS",
+    "DESCRIPTION": "Bike and scooter rentals"
+  },
+  {
+    "PRIMARY": "TRANSPORTATION",
+    "DETAILED": "GAS",
+    "DESCRIPTION": "Purchases at a gas station"
+  },
+  {
+    "PRIMARY": "TRANSPORTATION",
+    "DETAILED": "PARKING",
+    "DESCRIPTION": "Parking fees and expenses"
+  },
+  {
+    "PRIMARY": "TRANSPORTATION",
+    "DETAILED": "PUBLIC TRANSIT",
+    "DESCRIPTION": "Public transportation, including rail and train, buses, and metro"
+  },
+  {
+    "PRIMARY": "TRANSPORTATION",
+    "DETAILED": "TAXIS AND RIDE SHARES",
+    "DESCRIPTION": "Taxi and ride share services"
+  },
+  {
+    "PRIMARY": "TRANSPORTATION",
+    "DETAILED": "TOLLS",
+    "DESCRIPTION": "Toll expenses"
+  },
+  {
+    "PRIMARY": "TRANSPORTATION",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous transportation expenses"
+  },
+  {
+    "PRIMARY": "TRAVEL",
+    "DETAILED": "FLIGHTS",
+    "DESCRIPTION": "Airline expenses"
+  },
+  {
+    "PRIMARY": "TRAVEL",
+    "DETAILED": "LODGING",
+    "DESCRIPTION": "Hotels, motels, and hosted accommodation such as Airbnb"
+  },
+  {
+    "PRIMARY": "TRAVEL",
+    "DETAILED": "RENTAL CARS",
+    "DESCRIPTION": "Rental cars, charter buses, and trucks"
+  },
+  {
+    "PRIMARY": "TRAVEL",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous travel expenses"
+  },
+  {
+    "PRIMARY": "RENT AND UTILITIES",
+    "DETAILED": "GAS AND ELECTRICITY",
+    "DESCRIPTION": "Gas and electricity bills"
+  },
+  {
+    "PRIMARY": "RENT AND UTILITIES",
+    "DETAILED": "INTERNET AND CABLE",
+    "DESCRIPTION": "Internet and cable bills"
+  },
+  {
+    "PRIMARY": "RENT AND UTILITIES",
+    "DETAILED": "RENT",
+    "DESCRIPTION": "Rent payment"
+  },
+  {
+    "PRIMARY": "RENT AND UTILITIES",
+    "DETAILED": "SEWAGE AND WASTE MANAGEMENT",
+    "DESCRIPTION": "Sewage and garbage disposal bills"
+  },
+  {
+    "PRIMARY": "RENT AND UTILITIES",
+    "DETAILED": "TELEPHONE",
+    "DESCRIPTION": "Cell phone bills"
+  },
+  {
+    "PRIMARY": "RENT AND UTILITIES",
+    "DETAILED": "WATER",
+    "DESCRIPTION": "Water bills"
+  },
+  {
+    "PRIMARY": "RENT AND UTILITIES",
+    "DETAILED": "OTHER",
+    "DESCRIPTION": "Other miscellaneous utility bills"
+  }
+]

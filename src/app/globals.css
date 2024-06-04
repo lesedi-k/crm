@@ -8,13 +8,22 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 15, 24, 33;
   }
+} */
+.whiteCard {
+  background-color: rgba(248, 250, 252, 0.6); 
 }
+
+/* @media (prefers-color-scheme: dark) {
+  .whiteCard {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -31,3 +40,40 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+h1 {
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 11pt;
+}
+
+p {
+  font-size: 10pt;
+}
+code {
+  font-size: 12pt;
+}
+
+
+.gradient {
+  background-image: radial-gradient(ellipse at 100% 0%, rgba(147, 195, 216, 0.6), rgba(53, 88, 99, 0.3), transparent, transparent),
+  radial-gradient(ellipse at 0% 100%, rgba(100, 171, 174, 0.3),  transparent, transparent);
+}
+
+
+
