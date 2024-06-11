@@ -35,8 +35,8 @@ export default function Landing() {
 
             <div className="flex flex-row w-full h-5/6">
                 <div className="w-3/12">
-                    <Accounts title={"Vendors"} acc={acc}/>
-                    <Accounts title={"Accounts"} acc={acc}/>
+                    <Accounts title="Vendors" acc={acc}/>
+                    <Accounts title="Accounts" acc={acc}/>
                 </div>
                 
 

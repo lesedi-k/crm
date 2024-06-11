@@ -1,4 +1,4 @@
-export default  function Accounts({title, acc}) {
+export default  function Accounts({ title, acc }: { title: string; acc:any[] }) {
     return (
         <div className=" flex flex-col h-1/2 w-full rounded-xl mb-4 p-4 pb-10 max-h-screen whiteCard">
             <div className="flex flex-row justify-between">

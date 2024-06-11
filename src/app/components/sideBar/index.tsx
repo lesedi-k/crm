@@ -14,7 +14,7 @@ import settings from "../../../../public/assets/settings.svg"
 import partitions from "../../../../public/assets/partitions.svg"
 import gCal from "../../../../public/assets/gcal.svg"
 
-export default function SideBar({selected}) {
+export default function SideBar({selected} : {selected: number}) {
     const pageIcons = [
         {
             title: "Home",

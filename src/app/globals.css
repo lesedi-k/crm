@@ -17,16 +17,16 @@
 } */
 
 .card {
-  background-color: rgba(0, 0, 0, 0.2);
-  /* background-color: rgba(248, 250, 252, 0.6);  */
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  background-color: rgba(248, 250, 252, 0.261); 
 }
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .whiteCard {
     background-color: rgba(0, 0, 0, 0.2);
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
