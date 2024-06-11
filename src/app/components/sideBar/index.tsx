@@ -14,8 +14,7 @@ import settings from "../../../../public/assets/settings.svg"
 import partitions from "../../../../public/assets/partitions.svg"
 import gCal from "../../../../public/assets/gcal.svg"
 
-export default function SideBar() {
-
+export default function SideBar({selected}) {
     const pageIcons = [
         {
             title: "Home",
@@ -39,7 +38,7 @@ export default function SideBar() {
             name: "GCal",
             icon: gCal
         }
-        ]
+    ]
 
 
     return (
@@ -74,6 +73,7 @@ export default function SideBar() {
                                 width={30}
                                 height={30}
                                 priority
+                                style={{ opacity: selected === index ? 1 : 0.5}}
                             /> 
                             {/* <p className="text-xs text-white overflow-hidden overflow-clip ">{i.title}</p> */}
                         </div>

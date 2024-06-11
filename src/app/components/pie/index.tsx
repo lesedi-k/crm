@@ -1,6 +1,6 @@
 import { PieComponent } from "./types"
 
-export const Bubble: PieComponent = () => {
+export const Pie: PieComponent = () => {
 
     return (
         <></>

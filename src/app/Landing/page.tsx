@@ -13,14 +13,16 @@ import transactions from "../JSON/longPlaid.json"
 
 /* Assets */
 import filter from "../../../public/assets/filter.svg"
-//get card photos
 
-export default function Accounts() {
+/* Compontents */
+import Accounts from "../components/accounts";
+
+export default function Landing() {
     const acc = accounts.accounts
     const ts = transactions.added
     let date = ""
 
-    const name = "Lesedi"
+    const name = "Lesedi";
 
     function handleChange() {
 
@@ -32,33 +34,17 @@ export default function Accounts() {
             <h2 className="font-medium mb-4 text-gray-500">Welcome {name}!</h2>
 
             <div className="flex flex-row w-full h-5/6">
-                {/* Card List */}
-                <div className=" flex flex-col h-1/2 w-3/12 rounded-xl p-4 pb-10 max-h-screen whiteCard">
-                    <div className="flex flex-row justify-between">
-                        <h2 className="mb-1">Cards</h2> 
-                        <div className="hover:cursor-pointer w-1/12">
-                            <h3>+</h3>
-                        </div>   
-                    </div>
-                    
-                    {acc.map((a, index)=> (
-                        <div key={a + "" + index} className="flex flex-row justify-between p-2 mb-2
-                                rounded-lg bg-slate-300
-                                hover:bg-slate-200 hover:rounded-lg hover:cursor-pointer
-                        ">
-                            {/* TODO: Insert card icon */}
-                            <h4>{a.name}</h4>
-                            <code className="text-lg">${a.balances.available.toFixed(2)}</code>
-                        </div>    
-                    ))}
+                <div className="w-3/12">
+                    <Accounts title={"Vendors"} acc={acc}/>
+                    <Accounts title={"Accounts"} acc={acc}/>
                 </div>
+                
 
-                {/* Timeline  */}
-                <div className="flex flex-col w-7/12 rounded-xl mx-4 bg-slate-50 p-4 whiteCard">
+                {/* Activity  */}
+                <div className="flex flex-col w-7/12 rounded-xl mx-4 bg-slate-50 p-4 card">
                     {/* Timeline header */}
                     <div className="flex flex-row justify-between">
-                        <h2 className="mb-4">Timeline</h2>
-
+                        <h2 className="mb-4">Activity</h2>
                         <div className="flex flex-row w-full justify-end align-center">
                             <input
                                 type="text"
@@ -81,7 +67,7 @@ export default function Accounts() {
                     </div>
                     
 
-                    {/* TODO: Past and upcomgin transactions */}
+                    {/* TODO: Past and upcoming transactions */}
                     <div className="flex flex-col h-full overflow-y-auto overflow-hidden px-2">
                     {ts.map((t, index)=> {
                         let changed = false;
@@ -100,7 +86,7 @@ export default function Accounts() {
                                     <div className="flex flex-col justify-between p-2 w-9/12
                                                     rounded-xl bg-gray-300 mb-3
                                                     hover:cursor-pointer 
-                                                    "
+                                                     "
                                     >
                                         <div className="flex flex-row justify-between">
                                             <h4>{t.name}</h4>
@@ -127,7 +113,7 @@ export default function Accounts() {
                 </div>
 
                 {/* Alerts and Actions */}     
-                <div className="flex flex-col h-1/2 w-3/12 rounded-xl bg-slate-50 p-4 overflow-y-auto whiteCard">
+                <div className="flex flex-col h-1/2 w-3/12 rounded-xl bg-slate-50 p-4 overflow-y-auto card">
                     <h2>Notifications</h2>
                     <div 
                         className="bg-slate-50/60 w-full h-auto rounded-lg p-2 mb-2

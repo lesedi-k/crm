@@ -7,8 +7,7 @@ import Image from "next/image";
 import notifications from "../../../../public/assets/notification.svg"
 import profile from "../../../../public/assets/profile.svg"
 import searchIcon from "../../../../public/assets/search.svg"
-import { calculateSizeAdjustValues } from 'next/dist/server/font-utils';
- 
+
  export default function HeaderBar() {
 
     //is text not empty, stay there
