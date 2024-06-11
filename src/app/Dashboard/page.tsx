@@ -1,9 +1,11 @@
 
+'use client'
 import Accounts from "../components/accounts";
 import { Bar } from "../components/bar";
+import PageLayout from "../components/pageLayout";
 
-export default function DashBoard(){
 
+function Dash() {
     function addCard(){}
 
     function removeCard(){}
@@ -16,4 +18,13 @@ export default function DashBoard(){
             </div>
         </div>
     );
+}
+
+
+export default function DashBoard(){
+    return (
+        <main className="flex h-full flex-col gradient">
+            <PageLayout Page={Dash}/> 
+        </main>
+      );
 }

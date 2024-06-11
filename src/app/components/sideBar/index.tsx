@@ -1,9 +1,7 @@
-/*
-    TODO:
-    [] get icons
-    [] display icons
-    [] ON
-*/
+'use client'
+import React, { useState } from 'react';
+
+import Link from "next/link";
 import Image from "next/image";
 
 /* Assets */
@@ -14,29 +12,36 @@ import settings from "../../../../public/assets/settings.svg"
 import partitions from "../../../../public/assets/partitions.svg"
 import gCal from "../../../../public/assets/gcal.svg"
 
-export default function SideBar({selected} : {selected: number}) {
+
+export default function SideBar() {
+    const [page, setPage] = useState<number>(0)
+
     const pageIcons = [
         {
             title: "Home",
             icon: home,
-            page: null,
-        },
-        {
-            title: "Partitions",
-            icon: partitions,
+            link: "/",
             page: null,
         },
         {
             title: "Dashboard",
             icon: dashboard,
+            link: "/Dashboard",
             page: null,
         },
+        // {
+        //     title: "Partitions",
+        //     icon: partitions,
+        //     link: "",
+        //     page: null,
+        // },
     ]
 
     const integrations = [
         {
             name: "GCal",
-            icon: gCal
+            icon: gCal,
+            link: ""
         }
     ]
 
@@ -50,7 +55,6 @@ export default function SideBar({selected} : {selected: number}) {
                 pt-5 p-4
                 flex flex-col justify-between
             ">   
-
                 <Image
                     src={logo}
                     alt="Partition logo"
@@ -62,21 +66,28 @@ export default function SideBar({selected} : {selected: number}) {
                 {/* Page Icons */}    
                 <div>
                     {pageIcons.map((p, index) => (
-                        <div key={p +  "" + index} className="flex flex-col mt-5
-                            items-center text-center
-                            hover:cursor-pointer 
-                        ">
-                            <Image
-                                src={p.icon}
-                                alt={p.title}
-                                className="invert opacity-50 hover:opacity-100"
-                                width={30}
-                                height={30}
-                                priority
-                                style={{ opacity: selected === index ? 1 : 0.5}}
-                            /> 
-                            {/* <p className="text-xs text-white overflow-hidden overflow-clip ">{i.title}</p> */}
-                        </div>
+                        <Link 
+                            href={p.link}
+                            key={p +  "" + index} 
+                        >
+                            <div 
+                                className="flex flex-col mt-5
+                                items-center text-center
+                                hover:cursor-pointer"
+                                onClick={()=> setPage(index)}
+                            >
+                                <Image
+                                    src={p.icon}
+                                    alt={p.title}
+                                    className="invert opacity-50 hover:opacity-100"
+                                    width={30}
+                                    height={30}
+                                    priority
+                                    style={{ opacity: page === index ? 1 : 0.5}}
+                                /> 
+                                {/* <p className="text-xs text-white overflow-hidden overflow-clip ">{i.title}</p> */}
+                            </div>
+                        </Link>
                     ))}
                 </div>
     

@@ -1,9 +1,3 @@
-/*
-    TODO:
-    [] right align + text color going out
-    [] add upcoming
-    [] add dark mode colors
-*/
 import Image from "next/image";
 import { format } from 'date-fns';
 
