@@ -22,8 +22,8 @@ export default function Home() {
             <HeaderBar/>
 
             {/* Pages */}
-            {/* <Landing/> */}
-            <DashBoard/>
+            <Landing/>
+            {/* <DashBoard/> */}
           </div>
         </div>
         
