@@ -14,10 +14,10 @@ export default function Landing() {
 
     const name = "Lesedi";
 
-    const tiles = [
-        <ActivityCard/>, 
-        <Events/>,
-    ]
+    // const tiles = [
+    //     <ActivityCard/>, 
+    //     <Events/>,
+    // ]
 
     function handleHold() {
         //make all opaque
@@ -44,7 +44,6 @@ export default function Landing() {
 
             {/* Grid Space */}
             <div className="grid grid-rows-8 grid-cols-4 gap-4 grid-flow-row-dense w-full h-full overflow-scroll">
-                {/* {tiles.map((t, index)=> t)} */}
                 <ActivityCard/> 
                 <Events/>
             </div>
