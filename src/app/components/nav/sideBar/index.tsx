@@ -5,12 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 /* Assets */
-import dashboard from "../../../../public/assets/dashboard.svg"
-import logo from "../../../../public/assets/P.svg"
-import home from "../../../../public/assets/home.svg"
-import settings from "../../../../public/assets/settings.svg"
-import partitions from "../../../../public/assets/partitions.svg"
-import gCal from "../../../../public/assets/gcal.svg"
+import dashboard from "../../../../../public/assets/dashboard.svg"
+import logo from "../../../../../public/assets/P.svg"
+import home from "../../../../../public/assets/home.svg"
+import settings from "../../../../../public/assets/settings.svg"
+import partitions from "../../../../../public/assets/partitions.svg"
+import gCal from "../../../../../public/assets/gcal.svg"
 
 
 export default function SideBar() {
@@ -26,15 +26,16 @@ export default function SideBar() {
         {
             title: "Dashboard",
             icon: dashboard,
-            link: "/Dashboard",
+            // link: "/Dashboard",
+            link: "",
             page: null,
         },
-        // {
-        //     title: "Partitions",
-        //     icon: partitions,
-        //     link: "",
-        //     page: null,
-        // },
+        {
+            title: "Partitions",
+            icon: partitions,
+            link: "",
+            page: null,
+        },
     ]
 
     const integrations = [
@@ -74,7 +75,7 @@ export default function SideBar() {
                                 className="flex flex-col mt-5
                                 items-center text-center
                                 hover:cursor-pointer"
-                                onClick={()=> setPage(index)}
+                                onClick={()=> { p.link !== "" ? setPage(index) : ""}}
                             >
                                 <Image
                                     src={p.icon}

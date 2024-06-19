@@ -1,6 +1,6 @@
 /* components */
-import SideBar from "../sideBar";
-import HeaderBar from "../headerBar";
+import SideBar from "../nav/sideBar";
+import HeaderBar from "../nav/headerBar";
 
 interface PageLayoutProps {
   Page: React.ComponentType;

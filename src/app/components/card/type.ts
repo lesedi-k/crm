@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { BarComponent } from "../bar/type";
+import { BarComponent } from "../graph/bar/type";
 
 type CardProps = {
     name: string,

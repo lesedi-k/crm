@@ -1,7 +1,7 @@
 
 'use client'
-import Accounts from "../components/accounts";
-import { Bar } from "../components/bar";
+import Accounts from "../components/widgets/summary";
+import { Bar } from "../components/graph/bar";
 import PageLayout from "../components/pageLayout";
 
 

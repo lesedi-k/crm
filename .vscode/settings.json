@@ -1,0 +1,5 @@
+{
+    "markdown.updateLinksOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}

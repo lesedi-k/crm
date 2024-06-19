@@ -1,5 +1,5 @@
-import { Card } from "../card"
-import { CardComponent } from "../card/type"
+import { Card } from "../../card"
+import { CardComponent } from "../../card/type"
 import { BarComponent } from "./type"
 
 const BarCol = (height:number, max:number) => {
