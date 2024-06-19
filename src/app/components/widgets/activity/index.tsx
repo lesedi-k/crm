@@ -8,11 +8,7 @@ import transactions from "../../../JSON/longPlaid.json"
 
 /* Assets */
 import filter from "../../../../../public/assets/filter.svg"
-import user from "../../../../../public/assets/user.svg"
-
-/* Components */
-import SearchBar from "../../functional/searchBar";
-import CardHeaderBar from "../../nav/cardHearderBar";
+import cardIcon from "../../../../../public/assets/cardIcon.svg"
 
 export default function ActivityCard() {
 
@@ -37,8 +33,16 @@ export default function ActivityCard() {
                                 focus:border-transparent focus:outline-none focus:ring-0
                             "
                         />
-                        <div className="hover:cursor-pointer">
-                            <h2>+</h2>
+                        <Image
+                            src={filter}
+                            alt={"Filter"}
+                            className="opacity-30 hover:opacity-50 hover:cursor-pointer pb-5"
+                            width={30}
+                            height={30}
+                            priority
+                        />        
+                        <div className="flex hover:cursor-pointer opacity-30 items-start justify-start">
+                            <h1 className="-mt-3">+</h1>
                         </div>  
                     </div>
                 </div>
@@ -46,14 +50,13 @@ export default function ActivityCard() {
                 <div className="flex flex-col overflow-y-scroll h-screen">
                     {acc.map((a, index)=> (
                         <div key={a + "" + index} className="flex flex-row justify-between p-2 mb-2
-                                rounded-lg bg-slate-50/60
+                                rounded-xl bg-slate-50/60
                                 hover:bg-slate-50 hover:rounded-lg hover:cursor-pointer
                         ">
                             <Image
-                                src={user}
+                                src={cardIcon}
                                 alt={"Filter"}
-                                className="opacity-30 justify-self-center align-self-center rounded-full ml-2"
-                                // width={60}
+                                className="opacity-70 justify-self-center align-self-center rounded-full ml-5"
                                 height={50}
                                 priority
                             />  
@@ -72,19 +75,7 @@ export default function ActivityCard() {
                 {/* Activity header */}
                 <div className="flex flex-row justify-between">
                     <h2 className="mb-4">Transactions</h2>
-                    <div className="flex flex-row w-full justify-end align-center overflow-scroll">
-                        <Image
-                            src={filter}
-                            alt={"Filter"}
-                            className="opacity-30 hover:opacity-50 hover:cursor-pointer pb-5"
-                            width={30}
-                            height={30}
-                            priority
-                        />        
-                    </div>    
                 </div>
-
-                <CardHeaderBar name={""}/>
                 
                 {/* Activity message Space */}
                 <div className="flex flex-col-reverse overflow-y-scroll  h-screen px-2">
