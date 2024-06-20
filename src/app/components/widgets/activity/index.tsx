@@ -93,7 +93,7 @@ export default function ActivityCard() {
                             <div key={t + "" + index}>
                                 {changed && <p className="text-center mb-4"> {formattedDate} </p>}
                                 <div className={t.amount < 0 ? 'flex flex-row' :  'flex flex-row-reverse' }>
-                                    <div className={`flex flex-col justify-between w-9/12
+                                    <div className={`flex flex-col justify-between w-11/12
                                                     rounded-xl  mb-3 p-2 
                                                     hover:cursor-pointer
                                                     ${t.amount > 0 ? `bg-gray-300` : `bg-green-400/40`}
@@ -105,9 +105,9 @@ export default function ActivityCard() {
                                         </div>
 
                                         <div className="flex flex-row justify-between">
-                                            <div className="flex flex-row">
+                                            <div className="flex flex-row flex-wrap">
                                                 {t.category.map((c, index)=>(
-                                                    <div key={c + "" + index} className="bg-slate-600 rounded-full px-4 mr-2">
+                                                    <div key={c + "" + index} className="bg-slate-600 rounded-full px-4 mr-2 mb-2">
                                                         <p className="text-white">{c}</p>
                                                     </div>
                                                 ))}
