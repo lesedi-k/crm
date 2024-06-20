@@ -72,21 +72,20 @@ export default function SideBar() {
                             key={p +  "" + index} 
                         >
                             <div 
-                                className="flex flex-col mt-5
+                                className={`flex flex-col mt-5
                                 items-center text-center
-                                hover:cursor-pointer"
+                                ${p.link !== "" ? `hover:cursor-pointer` : `cursor-default` }`}
                                 onClick={()=> { p.link !== "" ? setPage(index) : ""}}
                             >
                                 <Image
                                     src={p.icon}
                                     alt={p.title}
-                                    className="invert opacity-50 hover:opacity-100"
+                                    className="invert opacity-50"
                                     width={30}
                                     height={30}
                                     priority
                                     style={{ opacity: page === index ? 1 : 0.5}}
                                 /> 
-                                {/* <p className="text-xs text-white overflow-hidden overflow-clip ">{i.title}</p> */}
                             </div>
                         </Link>
                     ))}
@@ -115,7 +114,7 @@ export default function SideBar() {
                 <Image
                     src={settings}
                     alt={"Settings"}
-                    className="dark:invert opacity-50 hover:opacity-100 hover:cursor-pointer"
+                    className="invert opacity-50 hover:opacity-100 hover:cursor-pointer"
                     width={30}
                     height={30}
                     priority

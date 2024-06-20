@@ -2,28 +2,45 @@
 
 const Events = () => {
 
-    return (
-        <div className="grid row-span-3 flex-col rounded-xl bg-slate-50 p-4 overflow-y-auto card">
-        <h2>Upcoming Events</h2>
-        <div 
-            className="bg-slate-50/60 w-full h-auto rounded-lg p-2 mb-2
-            hover:cursor-pointer
-            "
-        >
-            <h4 className="font-bold text-gray-600">Discover Payment Due in 2 days</h4>
-            <code>$562.45</code>
-            <p className="font-bold">Pay Now</p>
-        </div>
+    const events = [
+        {
+            description: "Discover Payment Due in 2 days",
+            amount: 562.45,
+            actionDescription: "Pay Now",
+            action: null
+        },
+        {
+            description: "Venmo Jess 🍕 + 🚗",
+            amount: 30.85,
+            actionDescription: "Venmo Now",
+            action: null
+        },
+        {
+            description: "Klarna payment (3/4)",
+            amount: 8.85,
+            actionDescription: "Pay Now",
+            action: null
+        }
+    ]
 
-        <div 
-            className="bg-slate-50/60 rounded-lg p-2 mb-2
-            hover:cursor-pointer
-            "
-        >
-            <h4 className="font-bold text-gray-600">Venmo Jess 🍕 + 🚗</h4>
-            <code>$30.85</code>
-            <p className="font-bold">Venmo Now</p>
-        </div>
+    return (
+        <div className="grid row-span-4 flex-col rounded-xl bg-slate-50 p-4 overflow-y-auto card mt-10">
+        <h2>Upcoming Events</h2>
+        {events.map((e, index)=> (
+            <div 
+                key={e+ "" +index}
+                className="bg-slate-50/60 
+                            w-full h-auto 
+                            rounded-lg 
+                            p-2 mb-2
+                            hover:cursor-pointer
+                        "
+            >
+                <h4 className="font-bold text-gray-600">{e.description}</h4>
+                <code>${e.amount}</code>
+                <p className="font-bold">{e.actionDescription}</p>
+            </div>
+        ))}
     </div>
     )
 }

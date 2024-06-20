@@ -7,8 +7,6 @@ interface PageLayoutProps {
 }
 
 const PageLayout: React.FC<PageLayoutProps> = ({ Page }) => {
-  
-
   return (
     <div className="flex h-full flex-col gradient">
         <div className="flex h-full flex-row">

@@ -2,17 +2,8 @@ import { Card } from "../../card"
 import { CardComponent } from "../../card/type"
 import { BarComponent } from "./type"
 
-const BarCol = (height:number, max:number) => {
-    return (
-        <div className=""/>
-    )
-}
-
 const Bars: BarComponent = ({xName, yName, xValues, yValues}) => {
-
     const maxY = Math.max(...yValues)
-
-
     return (
         <div className="flex flex-row h-full w-full">
             <div className="flex basis-1/12 items-center w-full h-full">
@@ -36,24 +27,14 @@ const Bars: BarComponent = ({xName, yName, xValues, yValues}) => {
                     ))}
                 </div>
                 <p className="text-center mb-2">{xName}</p>
-
-                
             </div>
             
         </div>
-        
-    )
-
-}
-
-
-export const Bar: CardComponent = ({name, size, dataSource, valueOptions, Content}) => {
-    //if 2
-    return (
-        <>
-            <Card name={name} size={2} dataSource={dataSource} valueOptions={valueOptions} Content={Bars}/>
-            <Card name={name} size={4} dataSource={dataSource} valueOptions={valueOptions} Content={Bars}/>
-        </>
-
     )
 }
+
+
+export const Bar: CardComponent = ({name, size, dataSource, valueOptions, Content}) => (
+    <Card name={name} size={size} dataSource={dataSource} valueOptions={valueOptions} Content={Bars}/>
+)
+    

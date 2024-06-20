@@ -1,5 +1,3 @@
-'use client'
-
 /* Pages */
 import Landing from "./Landing/page";
 import PageLayout from './components/pageLayout';

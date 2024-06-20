@@ -1,128 +1,128 @@
 {
     "accounts": [
-    {
+      {
         "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
         "balances": {
-        "available": 100,
-        "current": 110,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
+          "available": 1500,
+          "current": 1600,
+          "iso_currency_code": "USD",
+          "limit": null,
+          "unofficial_currency_code": null
         },
         "mask": "0000",
-        "name": "Plaid Checking",
-        "official_name": "Plaid Gold Standard 0% Interest Checking",
+        "name": "Bank of America Checking",
+        "official_name": "Bank of America Standard Checking",
         "subtype": "checking",
         "type": "depository"
-    },
-    {
+      },
+      {
         "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
         "balances": {
-        "available": 200,
-        "current": 210,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
+          "available": 5000,
+          "current": 5100,
+          "iso_currency_code": "USD",
+          "limit": null,
+          "unofficial_currency_code": null
         },
         "mask": "1111",
-        "name": "Plaid Saving",
-        "official_name": "Plaid Silver Standard 0.1% Interest Saving",
+        "name": "Wells Fargo Savings",
+        "official_name": "Wells Fargo High Yield Savings",
         "subtype": "savings",
         "type": "depository"
-    },
-    {
-        "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
+      },
+      {
+        "account_id": "7uH2K2PaVyaHKj6aEXjGHPVvRcL357tgD8mz9",
         "balances": {
-        "available": 100,
-        "current": 110,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
+          "available": 2500,
+          "current": 2600,
+          "iso_currency_code": "USD",
+          "limit": null,
+          "unofficial_currency_code": null
         },
-        "mask": "0000",
-        "name": "Plaid Checking",
-        "official_name": "Plaid Gold Standard 0% Interest Checking",
+        "mask": "2222",
+        "name": "Chase Checking",
+        "official_name": "Chase Total Checking",
         "subtype": "checking",
         "type": "depository"
-    },
-    {
-        "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
+      },
+      {
+        "account_id": "3lx9mm5XJ1drRmLNKferUyl5LxE8wQfZd79nb",
         "balances": {
-        "available": 200,
-        "current": 210,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
+          "available": 800,
+          "current": 850,
+          "iso_currency_code": "USD",
+          "limit": null,
+          "unofficial_currency_code": null
         },
-        "mask": "1111",
-        "name": "Plaid Saving",
-        "official_name": "Plaid Silver Standard 0.1% Interest Saving",
+        "mask": "4444",
+        "name": "Venmo Account",
+        "official_name": "Venmo Balance",
+        "subtype": "prepaid",
+        "type": "other"
+      },
+      {
+        "account_id": "5lz8mm5YJ1crRnLNLgerVyl5LxE9wQfZd80nc",
+        "balances": {
+          "available": 0,
+          "current": -200,
+          "iso_currency_code": "USD",
+          "limit": 500,
+          "unofficial_currency_code": null
+        },
+        "mask": "5555",
+        "name": "Klarna Account",
+        "official_name": "Klarna Pay Later",
+        "subtype": "credit",
+        "type": "credit"
+      },
+      {
+        "account_id": "4lx8mm5ZJ1brRlLNJgerTyl5LxE7wQfZd81nd",
+        "balances": {
+          "available": 0,
+          "current": -100,
+          "iso_currency_code": "USD",
+          "limit": 300,
+          "unofficial_currency_code": null
+        },
+        "mask": "6666",
+        "name": "Affirm Account",
+        "official_name": "Affirm Pay Over Time",
+        "subtype": "credit",
+        "type": "credit"
+      },
+      {
+        "account_id": "6lx8mm5XJ1drRmLNJferUyl5LxE8wQfZd82ne",
+        "balances": {
+          "available": 3500,
+          "current": 3600,
+          "iso_currency_code": "USD",
+          "limit": null,
+          "unofficial_currency_code": null
+        },
+        "mask": "7777",
+        "name": "Robinhood Account",
+        "official_name": "Robinhood Brokerage",
+        "subtype": "brokerage",
+        "type": "investment"
+      },
+      {
+        "account_id": "9uH2K3PaVybJKj7aFYnGHPVvRdL358tgD8mza",
+        "balances": {
+          "available": 1800,
+          "current": 1900,
+          "iso_currency_code": "USD",
+          "limit": null,
+          "unofficial_currency_code": null
+        },
+        "mask": "3333",
+        "name": "Citi Savings",
+        "official_name": "Citi Accelerate Savings",
         "subtype": "savings",
         "type": "depository"
-    },
-    {
-        "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
-        "balances": {
-        "available": 100,
-        "current": 110,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
-        },
-        "mask": "0000",
-        "name": "Plaid Checking",
-        "official_name": "Plaid Gold Standard 0% Interest Checking",
-        "subtype": "checking",
-        "type": "depository"
-    },
-    {
-        "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
-        "balances": {
-        "available": 100,
-        "current": 110,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
-        },
-        "mask": "0000",
-        "name": "Plaid Checking",
-        "official_name": "Plaid Gold Standard 0% Interest Checking",
-        "subtype": "checking",
-        "type": "depository"
-    },
-    {
-        "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
-        "balances": {
-        "available": 200,
-        "current": 210,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
-        },
-        "mask": "1111",
-        "name": "Plaid Saving",
-        "official_name": "Plaid Silver Standard 0.1% Interest Saving",
-        "subtype": "savings",
-        "type": "depository"
-    },
-    {
-        "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
-        "balances": {
-        "available": 200,
-        "current": 210,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
-        },
-        "mask": "1111",
-        "name": "Plaid Saving",
-        "official_name": "Plaid Silver Standard 0.1% Interest Saving",
-        "subtype": "savings",
-        "type": "depository"
-    }
+      }
     ],
     "item": {
-    "available_products": [
+      "available_products": [
         "assets",
         "balance",
         "signal",
@@ -130,18 +130,23 @@
         "investments",
         "liabilities",
         "recurring_transactions"
-    ],
-    "billed_products": [ "auth", "transactions" ],
-    "consent_expiration_time": null,
-    "error": null,
-    "institution_id": "ins_56",
-    "item_id": "76JWbbw8RMcAZ8o4k1BAUGoDjl1GveUg3BGmd",
-    "optional_products": null,
-    "products": [ "auth", "transactions" ],
-    "update_type": "background",
-    "webhook": ""
+      ],
+      "billed_products": [
+        "auth",
+        "transactions"
+      ],
+      "consent_expiration_time": null,
+      "error": null,
+      "institution_id": "ins_56",
+      "item_id": "76JWbbw8RMcAZ8o4k1BAUGoDjl1GveUg3BGmd",
+      "optional_products": null,
+      "products": [
+        "auth",
+        "transactions"
+      ],
+      "update_type": "background",
+      "webhook": ""
     },
     "request_id": "0bS2LckCzW0wqzX"
-
-}
-
+  }
+  

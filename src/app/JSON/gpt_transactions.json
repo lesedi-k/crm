@@ -1,0 +1,275 @@
+{
+  "total_transactions": 50,
+  "transactions": [
+    {
+      "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
+      "amount": -1500,
+      "iso_currency_code": "USD",
+      "category": ["Transfer", "Deposit"],
+      "date": "2024-01-01",
+      "name": "Paycheck",
+      "account_name": "Bank of America Checking"
+    },
+    {
+      "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
+      "amount": 200,
+      "iso_currency_code": "USD",
+      "category": ["Shops", "Groceries"],
+      "date": "2024-01-02",
+      "name": "Whole Foods",
+      "account_name": "Wells Fargo Savings"
+    },
+    {
+      "account_id": "7uH2K2PaVyaHKj6aEXjGHPVvRcL357tgD8mz9",
+      "amount": 50,
+      "iso_currency_code": "USD",
+      "category": ["Shops", "Supermarkets"],
+      "date": "2024-01-03",
+      "name": "Trader Joe's",
+      "account_name": "Chase Checking"
+    },
+    {
+      "account_id": "9uH2K3PaVybJKj7aFYnGHPVvRdL358tgD8mza",
+      "amount": -1200,
+      "iso_currency_code": "USD",
+      "category": ["Transfer", "Deposit"],
+      "date": "2024-01-04",
+      "name": "Bonus",
+      "account_name": "Citi Savings"
+    },
+    {
+      "account_id": "3lx9mm5XJ1drRmLNKferUyl5LxE8wQfZd79nb",
+      "amount": 50,
+      "iso_currency_code": "USD",
+      "category": ["Food and Drink", "Restaurants"],
+      "date": "2024-01-05",
+      "name": "Starbucks",
+      "account_name": "Venmo Account"
+    },
+    {
+      "account_id": "5lz8mm5YJ1crRnLNLgerVyl5LxE9wQfZd80nc",
+      "amount": 75,
+      "iso_currency_code": "USD",
+      "category": ["Service"],
+      "date": "2024-01-06",
+      "name": "Car Wash",
+      "account_name": "Klarna Account"
+    },
+    {
+      "account_id": "4lx8mm5ZJ1brRlLNJgerTyl5LxE7wQfZd81nd",
+      "amount": 150,
+      "iso_currency_code": "USD",
+      "category": ["Entertainment", "Concerts"],
+      "date": "2024-01-07",
+      "name": "Concert Tickets",
+      "account_name": "Affirm Account"
+    },
+    {
+      "account_id": "6lx8mm5XJ1drRmLNJferUyl5LxE8wQfZd82ne",
+      "amount": -500,
+      "iso_currency_code": "USD",
+      "category": ["Transfer", "Deposit"],
+      "date": "2024-01-08",
+      "name": "Investment Deposit",
+      "account_name": "Robinhood Account"
+    },
+    {
+      "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
+      "amount": 100,
+      "iso_currency_code": "USD",
+      "category": ["Utilities", "Electricity"],
+      "date": "2024-01-09",
+      "name": "Electric Bill",
+      "account_name": "Bank of America Checking"
+    },
+    {
+      "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
+      "amount": 75,
+      "iso_currency_code": "USD",
+      "category": ["Shops", "Books"],
+      "date": "2024-01-10",
+      "name": "Barnes & Noble",
+      "account_name": "Wells Fargo Savings"
+    },
+            {
+              "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
+              "account_name": "Bank of America Checking",
+              "amount": 1500.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Deposit"],
+              "date": "2024-06-01",
+              "name": "Payroll Deposit"
+            },
+            {
+              "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
+              "account_name": "Bank of America Checking",
+              "amount": 85.50,
+              "iso_currency_code": "USD",
+              "category": ["Food and Drink", "Restaurants"],
+              "date": "2024-06-02",
+              "name": "Local Restaurant"
+            },
+            {
+              "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
+              "account_name": "Wells Fargo Savings",
+              "amount": -500.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Deposit"],
+              "date": "2024-06-03",
+              "name": "Savings Transfer"
+            },
+            {
+              "account_id": "7uH2K2PaVyaHKj6aEXjGHPVvRcL357tgD8mz9",
+              "account_name": "Chase Checking",
+              "amount": 120.00,
+              "iso_currency_code": "USD",
+              "category": ["Shopping", "Clothing"],
+              "date": "2024-06-04",
+              "name": "Fashion Outlet"
+            },
+            {
+              "account_id": "9uH2K3PaVybJKj7aFYnGHPVvRdL358tgD8mza",
+              "account_name": "Citi Savings",
+              "amount": -200.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Deposit"],
+              "date": "2024-06-05",
+              "name": "Savings Deposit"
+            },
+            {
+              "account_id": "3lx9mm5XJ1drRmLNKferUyl5LxE8wQfZd79nb",
+              "account_name": "Venmo Account",
+              "amount": 50.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Withdrawal"],
+              "date": "2024-06-06",
+              "name": "Venmo Transfer"
+            },
+            {
+              "account_id": "5lz8mm5YJ1crRnLNLgerVyl5LxE9wQfZd80nc",
+              "account_name": "Klarna Account",
+              "amount": 150.00,
+              "iso_currency_code": "USD",
+              "category": ["Shopping", "Electronics"],
+              "date": "2024-06-07",
+              "name": "Tech Store"
+            },
+            {
+              "account_id": "4lx8mm5ZJ1brRlLNJgerTyl5LxE7wQfZd81nd",
+              "account_name": "Affirm Account",
+              "amount": 75.00,
+              "iso_currency_code": "USD",
+              "category": ["Shopping", "Home"],
+              "date": "2024-06-08",
+              "name": "Home Goods Store"
+            },
+            {
+              "account_id": "6lx8mm5XJ1drRmLNJferUyl5LxE8wQfZd82ne",
+              "account_name": "Robinhood Account",
+              "amount": -1000.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Investment"],
+              "date": "2024-06-09",
+              "name": "Stock Purchase"
+            },
+            {
+              "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
+              "account_name": "Bank of America Checking",
+              "amount": 45.00,
+              "iso_currency_code": "USD",
+              "category": ["Food and Drink", "Groceries"],
+              "date": "2024-06-10",
+              "name": "Supermarket"
+            },
+            {
+              "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
+              "account_name": "Wells Fargo Savings",
+              "amount": -100.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Deposit"],
+              "date": "2024-06-11",
+              "name": "Savings Transfer"
+            },
+            {
+              "account_id": "7uH2K2PaVyaHKj6aEXjGHPVvRcL357tgD8mz9",
+              "account_name": "Chase Checking",
+              "amount": 65.00,
+              "iso_currency_code": "USD",
+              "category": ["Transportation", "Gas"],
+              "date": "2024-06-12",
+              "name": "Gas Station"
+            },
+            {
+              "account_id": "9uH2K3PaVybJKj7aFYnGHPVvRdL358tgD8mza",
+              "account_name": "Citi Savings",
+              "amount": -50.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Deposit"],
+              "date": "2024-06-13",
+              "name": "Savings Deposit"
+            },
+            {
+              "account_id": "3lx9mm5XJ1drRmLNKferUyl5LxE8wQfZd79nb",
+              "account_name": "Venmo Account",
+              "amount": 30.00,
+              "iso_currency_code": "USD",
+              "category": ["Food and Drink", "Restaurants"],
+              "date": "2024-06-14",
+              "name": "Food Delivery"
+            },
+            {
+              "account_id": "5lz8mm5YJ1crRnLNLgerVyl5LxE9wQfZd80nc",
+              "account_name": "Klarna Account",
+              "amount": 200.00,
+              "iso_currency_code": "USD",
+              "category": ["Shopping", "Furniture"],
+              "date": "2024-06-15",
+              "name": "Furniture Store"
+            },
+            {
+              "account_id": "4lx8mm5ZJ1brRlLNJgerTyl5LxE7wQfZd81nd",
+              "account_name": "Affirm Account",
+              "amount": 50.00,
+              "iso_currency_code": "USD",
+              "category": ["Entertainment", "Movies"],
+              "date": "2024-06-16",
+              "name": "Cinema"
+            },
+            {
+              "account_id": "6lx8mm5XJ1drRmLNJferUyl5LxE8wQfZd82ne",
+              "account_name": "Robinhood Account",
+              "amount": -500.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Investment"],
+              "date": "2024-06-17",
+              "name": "ETF Purchase"
+            },
+            {
+              "account_id": "8lx8mm5WJ1crRlLNKgerTyl5LxE7wQfZd78na",
+              "account_name": "Bank of America Checking",
+              "amount": 1500.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Deposit"],
+              "date": "2024-06-18",
+              "name": "Payroll Deposit"
+            },
+            {
+              "account_id": "EjzgKKPaVyfGKj7aDXnGHPVvRbL356tgD8my7",
+              "account_name": "Wells Fargo Savings",
+              "amount": -300.00,
+              "iso_currency_code": "USD",
+              "category": ["Transfer", "Deposit"],
+              "date": "2024-06-19",
+              "name": "Savings Transfer"
+            },
+            {
+              "account_id": "7uH2K2PaVyaHKj6aEXjGHPVvRcL357tgD8mz9",
+              "account_name": "Chase Checking",
+              "amount": 95.00,
+              "iso_currency_code": "USD",
+              "category": ["Shopping", "Sporting Goods"],
+              "date": "2024-06-20",
+              "name": "Sports Equipment"
+            }
+          ]
+        }

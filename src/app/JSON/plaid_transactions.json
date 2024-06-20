@@ -2,6 +2,190 @@
   "total_transactions": 17,
   "transactions": [
     {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": 2307.21,
+      "iso_currency_code": "USD",
+      "category": ["Shops", "Computers and Electronics"],
+      "date": "2024-01-29",
+      "name": "Apple Store"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": 5.99,
+      "iso_currency_code": "USD",
+      "category": ["Food and Drink", "Restaurants"],
+      "date": "2024-02-05",
+      "name": "Local Bistro"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": -1750.0,
+      "iso_currency_code": "USD",
+      "category": ["Transfer", "Deposit"],
+      "date": "2024-03-01",
+      "name": "Paycheck"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": 89.99,
+      "iso_currency_code": "USD",
+      "category": ["Shops"],
+      "date": "2024-03-15",
+      "name": "Fashion Mall"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": 9.99,
+      "iso_currency_code": "USD",
+      "category": ["Service"],
+      "date": "2024-03-20",
+      "name": "Streaming Service"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": 45.0,
+      "iso_currency_code": "USD",
+      "category": ["Transportation"],
+      "date": "2024-04-05",
+      "name": "Gas Station"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": 99.0,
+      "iso_currency_code": "USD",
+      "category": ["Shops"],
+      "date": "2024-04-15",
+      "name": "Tech Store"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": -1900.0,
+      "iso_currency_code": "USD",
+      "category": ["Transfer", "Deposit"],
+      "date": "2024-05-01",
+      "name": "Paycheck"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": 25.0,
+      "iso_currency_code": "USD",
+      "category": ["Food and Drink", "Cafes"],
+      "date": "2024-05-10",
+      "name": "Local Cafe"
+    },
+    {
+      "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
+      "amount": 109.99,
+      "iso_currency_code": "USD",
+      "category": ["Shops"],
+      "date": "2024-05-20",
+      "name": "Home Store"
+    },
+    {
+      "account_id": "8XzqjPnBgDFV1EgzyKxqHNRXo55gqKiwX1pxk",
+      "amount": 6.33,
+      "iso_currency_code": "USD",
+      "category": ["Travel", "Car Service", "Ride Share"],
+      "date": "2024-01-10",
+      "name": "Uber"
+    },
+    {
+      "account_id": "AXjpkWD7JxFwkbGjQNo9Ud1gpbbxNaF1pjJ1g",
+      "amount": 500,
+      "iso_currency_code": "USD",
+      "category": ["Food and Drink", "Restaurants"],
+      "date": "2024-01-15",
+      "name": "Tectra Inc"
+    },
+    {
+      "account_id": "AXjpkWD7JxFwkbGjQNo9Ud1gpbbxNaF1pjJ1g",
+      "amount": 2078.5,
+      "iso_currency_code": "USD",
+      "category": ["Payment"],
+      "date": "2024-01-20",
+      "name": "Automatic Payment"
+    },
+    {
+      "account_id": "AXjpkWD7JxFwkbGjQNo9Ud1gpbbxNaF1pjJ1g",
+      "amount": 500,
+      "iso_currency_code": "USD",
+      "category": ["Food and Drink", "Restaurants"],
+      "date": "2024-01-25",
+      "name": "KFC"
+    },
+    {
+      "account_id": "AXjpkWD7JxFwkbGjQNo9Ud1gpbbxNaF1pjJ1g",
+      "amount": 500,
+      "iso_currency_code": "USD",
+      "category": ["Shops", "Sporting Goods"],
+      "date": "2024-01-30",
+      "name": "Madison Bicycle Shop"
+    },
+    {
+      "account_id": "EXZvBWqMJwFg1vXrwDW9hQKjzvv4xgHXBRejW",
+      "amount": 25,
+      "iso_currency_code": "USD",
+      "category": ["Payment", "Credit Card"],
+      "date": "2024-02-05",
+      "name": "Credit Card Payment"
+    },
+    {
+      "account_id": "8XzqjPnBgDFV1EgzyKxqHNRXo55gqKiwX1pxk",
+      "amount": 5.4,
+      "iso_currency_code": "USD",
+      "category": ["Travel", "Car Service", "Ride Share"],
+      "date": "2024-02-10",
+      "name": "Uber"
+    },
+    {
+      "account_id": "GX1ox6rLJyF64wg3RLDqhkNXpWWn5yF1pBx1m",
+      "amount": 5850,
+      "iso_currency_code": "USD",
+      "category": ["Transfer", "Debit"],
+      "date": "2024-02-15",
+      "name": "ACH Electronic Credit"
+    },
+    {
+      "account_id": "WnrzyA163LFzV7PwKojNHepXqzzJMwFlb9yWL",
+      "amount": 1000,
+      "iso_currency_code": "USD",
+      "category": ["Transfer", "Deposit"],
+      "date": "2024-02-20",
+      "name": "CD Deposit"
+    },
+    {
+      "account_id": "AXjpkWD7JxFwkbGjQNo9Ud1gpbbxNaF1pjJ1g",
+      "amount": 78.5,
+      "iso_currency_code": "USD",
+      "category": ["Recreation", "Gyms and Fitness Centers"],
+      "date": "2024-02-25",
+      "name": "Touchstone Climbing"
+    },
+    {
+      "account_id": "BXj9pvNkxFw8vbGjWNo9Ud1grbbxNaF1pjJ1g",
+      "amount": 35,
+      "iso_currency_code": "USD",
+      "category": ["Entertainment", "Movies and DVDs"],
+      "date": "2024-03-01",
+      "name": "Movie Theater"
+    },
+    {
+      "account_id": "CXj2jPnBgDFV1EgzyKxqHNRXo55gqKiwX1pxk",
+      "amount": 200,
+      "iso_currency_code": "USD",
+      "category": ["Travel", "Airlines and Aviation Services"],
+      "date": "2024-03-05",
+      "name": "Airline Ticket"
+    },
+    {
+      "account_id": "DXj5jPnBgDFV1EgzyKxqHNRXo55gqKiwX1pxk",
+      "amount": 150,
+      "iso_currency_code": "USD",
+      "category": ["Healthcare", "Pharmacy"],
+      "date": "2024-03-10",
+      "name": "Pharmacy"
+    },
+    {
     "account_id": "BxBXxLj1m4HMXBm9WZZmCWVbPjX16EHwv99vp",
     "amount": 2307.21,
     "iso_currency_code": "USD",
