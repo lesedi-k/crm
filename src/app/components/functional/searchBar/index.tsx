@@ -34,7 +34,7 @@ const SearchBar = () => {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                     placeholder="Search"
-                    className="rounded-full w-full h-9 text-sm outline-none ring-0 mr-2 bg-transparent focus:w-96"
+                    className="rounded-full w-full h-9 text-sm outline-none ring-0 mr-2 bg-transparent focus:w-96 dark:invert"
                     style={{ 
                         backgroundImage: `url(${search})`,
                         backgroundRepeat: 'no-repeat',
