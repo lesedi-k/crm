@@ -1,3 +1,4 @@
+
 const Overview = () => {
     const acc = [
         {
@@ -8,6 +9,10 @@ const Overview = () => {
             name: "Total Spent:",
             balance: -1203.00
         },
+        {
+            name: "Total Balance:",
+            balance: 1203.00
+        },
     ]
 
     return (
@@ -17,13 +22,11 @@ const Overview = () => {
                 <div 
                     key={a + "" + index} 
                     className="flex-1 flex-col justify-between 
-                        p-1 mb-2 mx-1 
-                        rounded-lg bg-slate-50/60
-                        hover:bg-slate-50 hover:rounded-lg hover:cursor-pointer
+                        mx-1 
                 ">
                     {/* TODO: Insert card icon */}
                     <h4>{a.name}</h4>
-                    <code className={`text-lg ${a.balance < 0 ?`text-red-700` : `text-green-700`} pl-4`}>${Math.abs(a.balance).toFixed(2)}</code>
+                    <code className={`text-lg pl-4`}>${Math.abs(a.balance).toFixed(2)}</code>
                 </div>    
             ))}
         </div>     

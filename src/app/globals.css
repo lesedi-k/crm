@@ -8,27 +8,28 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 15, 24, 33;
   }
-} */
+}
 
 .card {
-  /* background-color: rgba(0, 0, 0, 0.2); */
   background-color: rgba(248, 250, 252, 0.3); 
   border: 0.5px solid white;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
-/* @media (prefers-color-scheme: dark) {
-  .whiteCard {
+@media (prefers-color-scheme: dark) {
+  .card {
     background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
-} */
+}
 
 body {
   color: rgb(var(--foreground-rgb));

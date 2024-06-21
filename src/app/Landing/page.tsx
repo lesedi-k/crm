@@ -22,9 +22,7 @@ export default function Landing() {
 
     return (
         <div className="h-full overflow-hidden">
-
-            {/* Grid Space */}
-            <div className="grid grid-rows-8 grid-cols-4 gap-4 grid-flow-row-dense w-full h-full overflow-scroll pt-5">
+            <div className="grid grid-rows-8 grid-cols-4 gap-4 grid-flow-row-dense w-full h-full overflow-scroll pt-5 px-8">
                 <Summary/>
                 <ActivityCard/> 
                 <Events/>                

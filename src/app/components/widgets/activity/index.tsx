@@ -18,11 +18,7 @@ import affirm from "../../../../../public/assets/affirm.svg"
 import klarna from "../../../../../public/assets/klarna.svg"
 import robinhood from "../../../../../public/assets/rh.svg"
 
-
-
-
 export default function ActivityCard() {
-
     const acc = accounts.accounts
     const ts = transactions.transactions
     let date = "";
@@ -43,7 +39,7 @@ export default function ActivityCard() {
     return (
         <div className="flex grid-flow-col-dense col-span-3 row-span-5 card rounded-xl">
             {/* Sidebar */}
-            <div className="flex flex-col basis-2/5 bg-slate-50/30 rounded-l-xl p-4 overflow-clip">
+            <div className="flex flex-col basis-2/5 card rounded-l-xl p-4 overflow-clip">
                 <div className="flex flex-row justify-between">
                     <h2 className="mb-1">Accounts</h2> 
                     <div className="flex flex-row justify-end">
@@ -60,12 +56,13 @@ export default function ActivityCard() {
                         <Image
                             src={filter}
                             alt={"Filter"}
-                            className="opacity-30 hover:opacity-50 hover:cursor-pointer pb-5"
+                            className="opacity-30 hover:opacity-50 hover:cursor-pointer pb-5 
+                                    dark:invert dark:opacity-100"
                             width={30}
                             height={30}
                             priority
                         />        
-                        <div className="flex hover:cursor-pointer opacity-30 items-start justify-start">
+                        <div className="flex hover:cursor-pointer opacity-30 items-start justify-start dark:opacity-100">
                             <h1 className="-mt-3">+</h1>
                         </div>  
                     </div>
@@ -74,8 +71,8 @@ export default function ActivityCard() {
                 <div className="flex flex-col overflow-y-scroll h-screen">
                     {acc.map((a, index)=> (
                         <div key={a + "" + index} className="flex flex-row justify-between p-2 mb-2
-                                rounded-xl bg-slate-50/60
-                                hover:bg-slate-50 hover:rounded-lg hover:cursor-pointer
+                                rounded-xl card
+                                hover:bg-slate-50 hover:dark:bg-gray-950/40 hover:rounded-lg hover:cursor-pointer
                         ">
                             <Image
                                 src={icon(a.name)}
@@ -119,18 +116,18 @@ export default function ActivityCard() {
                                     <div className={`flex flex-col justify-between w-11/12
                                                     rounded-xl  mb-2 px-2 py-1
                                                     hover:cursor-pointer
-                                                    ${t.amount > 0 ? `bg-gray-300` : `bg-green-400/40`}
+                                                    ${t.amount > 0 ? `bg-gray-300 dark:bg-gray-400/50` : `bg-green-400/40 dark:bg-green-700/40`}
                                                     `}
                                     >
                                         <div className="flex flex-row justify-between">
                                             <h4>{t.name}</h4>
-                                            <code className={t.amount < 0 ? 'text-green-700' : 'text-red-700'}>{t.amount > 0 ? "-" : "+"}${amount.toFixed(2)}</code>
+                                            <code className={t.amount < 0 ? 'text-green-700 dark:text-green-300' : 'text-red-700 dark:text-red-800'}>{t.amount > 0 ? "-" : "+"}${amount.toFixed(2)}</code>
                                         </div>
 
                                         <div className="flex flex-row justify-between">
                                             <div className="flex flex-row flex-wrap">
                                                 {t.category.map((c, index)=>(
-                                                    <div key={c + "" + index} className="bg-slate-600 rounded-full px-4 mr-1 mb-2">
+                                                    <div key={c + "" + index} className="bg-slate-600/30 dark:bg-slate-900/30  rounded-full px-4 mr-1 mb-2">
                                                         <p className="text-white">{c}</p>
                                                     </div>
                                                 ))}

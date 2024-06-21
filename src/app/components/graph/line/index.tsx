@@ -9,10 +9,8 @@ import transactions from "../../../JSON/gpt_transactions.json"
 
 const Line = () => {
     const [scope, setScope] = useState<string>("Month")
-    const [range, setRange] = useState<number>(30)
-
     const xy = transactions.transactions.map((t) => ({x: t.date, y: t.amount}))
-    const [ts, setTS] = useState<{x: string, y: number}[]>(xy)
+    const [ts, setTS] = useState<{x: string, y: number}[]>(xy.slice(- 20))
 
     function changeScope(s: string) {        
         let range = 0;
@@ -68,10 +66,10 @@ const Line = () => {
                                 </linearGradient>
                             </defs>   
                             <path
-                                stroke="gray"
+                                stroke="white"
                                 // fill="url(#GraphGrad)"
                                 fill="none"
-                                stroke-width={2}
+                                stroke-width={1}
                                 stroke-linecap="round"
                                 d={generatePath(ts)}
                             />  

@@ -1,5 +1,3 @@
-
-
 const Events = () => {
 
     const events = [
@@ -29,16 +27,16 @@ const Events = () => {
         {events.map((e, index)=> (
             <div 
                 key={e+ "" +index}
-                className="bg-slate-50/60 
+                className="card
                             w-full h-auto 
                             rounded-lg 
                             p-2 mb-2
                             hover:cursor-pointer
                         "
             >
-                <h4 className="font-bold text-gray-600">{e.description}</h4>
+                <h4 className="font-bold">{e.description}</h4>
                 <code>${e.amount}</code>
-                <p className="font-bold">{e.actionDescription}</p>
+                <p className="font-bold text-right">{e.actionDescription}</p>
             </div>
         ))}
     </div>
