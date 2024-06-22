@@ -116,7 +116,7 @@ export default function ActivityCard() {
                                     <div className={`flex flex-col justify-between w-11/12
                                                     rounded-xl  mb-2 px-2 py-1
                                                     hover:cursor-pointer
-                                                    ${t.amount > 0 ? `bg-gray-300 dark:bg-gray-400/50` : `bg-green-400/40 dark:bg-green-700/40`}
+                                                    ${t.amount > 0 ? `bg-gray-300 dark:bg-gray-400/50` : `bg-cyan-500/40`}
                                                     `}
                                     >
                                         <div className="flex flex-row justify-between">

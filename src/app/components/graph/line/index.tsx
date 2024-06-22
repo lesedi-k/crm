@@ -60,16 +60,15 @@ const Line = () => {
                         <svg className="flex h-full w-full items-end">
                             <defs>
                                 <linearGradient id="GraphGrad" x1="0" x2="0" y1="0" y2="1">
-                                    <stop offset="0%" stop-color="rgb(50, 141, 168)" stop-opacity="0.5"/>
-                                    <stop offset="50%" stop-color="rgb(50, 141, 168)" stop-opacity="0" />
-                                    <stop offset="100%" stop-color="blue" stop-opacity="0"/>
+                                    <stop offset="0%" stop-color="rgb(60, 176, 230)" stop-opacity="1"/>
+                                    <stop offset="60%" stop-color="rgb(76, 158, 153)" stop-opacity="1" />
                                 </linearGradient>
                             </defs>   
                             <path
-                                stroke="white"
+                                stroke="url(#GraphGrad)"
                                 // fill="url(#GraphGrad)"
                                 fill="none"
-                                stroke-width={1}
+                                stroke-width={4}
                                 stroke-linecap="round"
                                 d={generatePath(ts)}
                             />  
