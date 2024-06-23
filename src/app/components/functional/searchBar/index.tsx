@@ -24,7 +24,7 @@ const SearchBar = () => {
                 <Image
                     src={searchIcon}
                     alt={"search"}
-                    className="pl-2 mt-2 opacity-50 h-5"
+                    className="pl-2 mt-2 opacity-50 h-5 dark:invert dark:opacity-70 dark:hover:opacity-90"
                     width={40}
                     height={40}
                     priority

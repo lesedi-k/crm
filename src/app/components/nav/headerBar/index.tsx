@@ -14,7 +14,7 @@ import SearchBar from '../../functional/searchBar';
             <Image
                 src={notifications}
                 alt={"Notifications"}
-                className="opacity-50 hover:opacity-60 hover:cursor-pointer mr-2"
+                className="opacity-50 hover:opacity-60 hover:cursor-pointer mr-2 dark:invert dark:opacity-70 dark:hover:opacity-90"
                 width={30}
                 height={30}
                 priority
