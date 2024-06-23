@@ -51,76 +51,82 @@ export default function SideBar() {
         <div className="flex h-100 flex-col items-center my-5 pl-4">
             <div className="
                 h-full rounded-full w-18
-                bg-gray-950 opacity-80
+                card
                 items-center
-                pt-5 p-4
                 flex flex-col justify-between
-            ">   
-                <Image
-                    src={logo}
-                    alt="Partition logo"
-                    className="mb-30"
-                    width={25}
-                    priority
-                />  
+            "> 
+                <div className="
+                    h-full rounded-full w-18
+                    card
+                    items-center
+                    pt-5 p-4
+                    flex flex-col justify-between
+                ">   
+                    <Image
+                        src={logo}
+                        alt="Partition logo"
+                        className="mb-30"
+                        width={25}
+                        priority
+                    />  
 
-                {/* Page Icons */}    
-                <div>
-                    {pageIcons.map((p, index) => (
-                        <Link 
-                            href={p.link}
-                            key={p +  "" + index} 
-                        >
-                            <div 
-                                className={`flex flex-col mt-5
-                                items-center text-center
-                                ${p.link !== "" ? `hover:cursor-pointer` : `cursor-default` }`}
-                                onClick={()=> { p.link !== "" ? setPage(index) : ""}}
+                    {/* Page Icons */}    
+                    <div>
+                        {pageIcons.map((p, index) => (
+                            <Link 
+                                href={p.link}
+                                key={p +  "" + index} 
                             >
+                                <div 
+                                    className={`flex flex-col mt-5
+                                    items-center text-center
+                                    ${p.link !== "" ? `hover:cursor-pointer` : `cursor-default` }`}
+                                    onClick={()=> { p.link !== "" ? setPage(index) : ""}}
+                                >
+                                    <Image
+                                        src={p.icon}
+                                        alt={p.title}
+                                        className="invert opacity-50"
+                                        width={30}
+                                        height={30}
+                                        priority
+                                        style={{ opacity: page === index ? 1 : 0.5}}
+                                    /> 
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
+        
+                    {/* Intergration Icons */}
+                    <div>
+                        {integrations.map((i, index) => (
+                            <div key ={i +  "" + index} className="flex flex-col mt-5
+                                items-center text-center
+                                hover:cursor-pointer 
+                            ">
                                 <Image
-                                    src={p.icon}
-                                    alt={p.title}
-                                    className="invert opacity-50"
+                                    src={i.icon}
+                                    alt={i.name}
+                                    className="opacity-90 hover:opacity-100"
                                     width={30}
                                     height={30}
                                     priority
-                                    style={{ opacity: page === index ? 1 : 0.5}}
                                 /> 
+                                {/* <p className="text-xs text-white overflow-hidden overflow-clip ">{i.title}</p> */}
                             </div>
-                        </Link>
-                    ))}
-                </div>
-    
-                {/* Intergration Icons */}
-                <div>
-                    {integrations.map((i, index) => (
-                        <div key ={i +  "" + index} className="flex flex-col mt-5
-                            items-center text-center
-                            hover:cursor-pointer 
-                        ">
-                            <Image
-                                src={i.icon}
-                                alt={i.name}
-                                className="opacity-90 hover:opacity-100"
-                                width={30}
-                                height={30}
-                                priority
-                            /> 
-                            {/* <p className="text-xs text-white overflow-hidden overflow-clip ">{i.title}</p> */}
-                        </div>
-                    ))}
-                </div>
+                        ))}
+                    </div>
 
-                <Image
-                    src={settings}
-                    alt={"Settings"}
-                    className="invert opacity-50 hover:opacity-100 hover:cursor-pointer"
-                    width={30}
-                    height={30}
-                    priority
-                /> 
+                    <Image
+                        src={settings}
+                        alt={"Settings"}
+                        className="invert opacity-50 hover:opacity-100 hover:cursor-pointer"
+                        width={30}
+                        height={30}
+                        priority
+                    /> 
+                </div>
             </div>
-
         </div>
         
     );

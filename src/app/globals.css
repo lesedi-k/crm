@@ -79,7 +79,19 @@ code {
 .gradient {
   background-image: radial-gradient(ellipse at 100% 0%, rgba(179, 240, 248, 0.6), rgba(53, 88, 99, 0.3), transparent, transparent),
   radial-gradient(ellipse at 0% 100%, rgba(100, 171, 174, 0.3),  rgba(75, 152, 144, 0.2), transparent, transparent);
+
+  /* background-image: radial-gradient(ellipse at 100% 0%,rgba(29, 55, 62, 0.3),  rgba(24, 24, 26, 0.6)),
+  radial-gradient(ellipse at 0% 100%,rgba(19, 21, 21, 0.4),transparent, rgba(0, 0, 0, 0.8)); */
 }
 
+@media (prefers-color-scheme: dark) {
+  .gradient {
+    /* background-image: radial-gradient(ellipse at 100% 0%, rgba(179, 240, 248, 0.6), rgba(53, 88, 99, 0.3), transparent, transparent),
+    radial-gradient(ellipse at 0% 100%, rgba(100, 171, 174, 0.3),  rgba(75, 152, 144, 0.2), transparent, transparent); */
+
+      background-image: radial-gradient(ellipse at 100% 0%,rgba(29, 55, 62, 0.3),  rgba(24, 24, 26, 0.6)),
+                      radial-gradient(ellipse at 0% 100%,rgba(19, 21, 21, 0.4),transparent, rgba(0, 0, 0, 0.8));
+  }
+}
 
 
